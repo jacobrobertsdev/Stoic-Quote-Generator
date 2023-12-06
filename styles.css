@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --text: #000000;
+  --accent: #7e967b;
+  --accent-2: #b6c2c5;
+  --accent-3: #8f98a6;
+  --heading: "Philosopher", sans-serif;
+  --body: "Mulish", sans-serif;
+}
+
+body {
+  position: relative;
+  background-color: #d0cecc;
+}
+
+.illustration-1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  z-index: -1;
+  opacity: 0.05;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 70%;
+  z-index: 1;
+}
+
+h1 {
+  text-align: center;
+  color: var(--text);
+  font-family: var(--heading);
+  font-size: 1.5rem;
+}
+
+.quote {
+  margin-top: 2rem;
+  max-width: 70%;
+}
+
+.quote-text {
+  font-family: var(--body);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.author-name {
+  font-family: var(--body);
+  margin: 1rem auto;
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.refresh {
+  text-align: center;
+  cursor: pointer;
+}
+
+.refresh img {
+  width: 3.2rem;
+  margin-top: 1rem;
+}
