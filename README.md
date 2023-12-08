@@ -2,9 +2,7 @@
 
 A simple app that generates a random quote from a Stoic Philosopher when the page is loaded and when the reload button is clicked.
 
-This uses the public api from (https://github.com/benhoneywill/stoic-quotes).
-
-The background art is from rawpixel.com (https://www.rawpixel.com/image/6659535/png-sticker-public-domain)
+URL (https://jacobrobertsdev.github.io/Stoic-Quote-Generator/)
 
 ### Screenshot
 
@@ -14,6 +12,12 @@ The background art is from rawpixel.com (https://www.rawpixel.com/image/6659535/
 ### Built with
 
 - HTML / CSS / JAVASCRIPT
+
+### Resources
+
+This uses the public api from (https://github.com/benhoneywill/stoic-quotes).
+
+Background from rawpixel.com (https://www.rawpixel.com/image/6659535/png-sticker-public-domain)
 
 ## Author
 
